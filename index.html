@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manuel's Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f7f7f7;
+    }
+
+    .navbar {
+      transition: background-color 0.3s ease;
+    }
+
+    .navbar:hover {
+      background-color: #444;
+    }
+
+    .section {
+      padding: 60px 0;
+    }
+
+    .img-fluid:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card {
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-link {
+      transition: color 0.3s ease;
+    }
+
+    .nav-link:hover {
+      color: #00aaff;
+    }
+
+    .social-icons a {
+      color: white;
+      font-size: 1.5rem;
+      margin: 0 15px;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #00aaff;
+    }
+
+    .certificate img {
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #333;
+    }
+
+    footer a {
+      color: #fff;
+      transition: color 0.3s ease;
+    }
+
+    footer a:hover {
+      color: #00aaff;
+    }
+  </style>
+</head>
+<body>
+  <header class="bg-dark text-white py-4 text-center">
+    <h1>Manuel Jose A. Torne</h1>
+    <p>Tech Support | Web Developer | Problem Solver</p>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#educational">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificate">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <!-- About Me -->
+<section id="about" class="section">
+  <div class="text-center mb-4">
+    <img src="me.png" alt="Manuel's Image" class="img-fluid rounded-circle" style="width: 300px; height: 300px;">
+  </div>
+  <h2 class="text-center">About Me</h2>
+  <div class="row align-items-center">
+    <div class="col-md-12 text-center">
+      <ul class="list-unstyled lead">
+        <li><strong>Manuel Jose A. Torne</strong></li>
+        <li>Lakewood, Cabanatuan City, Nueva Ecija</li>
+        <li>Tech Support with strong communication and collaboration skills, and sense of adaptability. Problem-solver with a creative approach and empathy for teamwork.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Educational Background -->
+    <section id="educational" class="section text-center bg-light">
+      <h2>Educational Background</h2>
+      <ul class="list-unstyled">
+        <li>Elementary: San Felipe Integrated School</li>
+        <li>High School: Rizal National High School</li>
+        <li>Senior High School: Rizal National High School</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="portfolio" class="section">
+      <h2 class="text-center">Projects</h2>
+      <div class="row">
+        <!-- First project -->
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <a href="https://drive.google.com/drive/folders/1q8EVb0_IlkkM_iXNTLblvR8YjaXt6eee" target="_blank">
+              <img src="room sched.png" class="card-img-top" alt="Room Scheduling System">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Room Scheduling System with CRUD</h5>
+              <p class="card-text">A Room Scheduling System with complete CRUD functionality.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second project -->
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <a href="https://drive.google.com/drive/folders/1NyAIF9R77vl7MhXb9kSyRLCYvX-VoYxo" target="_blank">
+              <img src="pages.png" class="card-img-top" alt="Employee Management System">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Employee Management System with CRUD</h5>
+              <p class="card-text">An Employee Management System with CRUD functionality.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third project -->
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <a href="https://github.com/ijagamino/integration-project" target="_blank">
+              <img src="clinic.png" class="card-img-top" alt="Integrated Project">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Integrated Project</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Certificates -->
+<section id="certificate" class="section text-center bg-light">
+  <h2>Certificates</h2>
+  <div class="row">
+    <!-- Certificate 1 -->
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <a href="#techTalkModal" data-toggle="modal">
+          <img src="w.jpg" class="card-img-top" alt="Tech Talk Ignite">
+        </a>
+        <div class="card-body">
+          <p class="card-text">Tech Talk Ignite Certificate</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certificate 2 -->
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <a href="#nc2Modal" data-toggle="modal">
+          <img src="ncll.jpg" class="card-img-top" alt="NC2 Certificate">
+        </a>
+        <div class="card-body">
+          <p class="card-text">NC2 Certificate</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certificate for Completion -->
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <a href="#ccnModal" data-toggle="modal">
+          <img src="ccn.png" class="card-img-top" alt="Completion Certificate"> <!-- Make sure this is a valid image -->
+        </a>
+        <div class="card-body">
+          <p class="card-text">Certificate of Completion</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal for Tech Talk Ignite Certificate -->
+<div class="modal fade" id="techTalkModal" tabindex="-1" role="dialog" aria-labelledby="techTalkModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="techTalkModalLabel">Tech Talk Ignite Certificate</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <br><img src="w.jpg" class="img-fluid" alt="Tech Talk Ignite Certificate"><br>
+        <br><img src="q.jpg" class="img-fluid" alt="Tech Talk Ignite Certificate"><br>
+        <br><img src="e.jpg" class="img-fluid" alt="Tech Talk Ignite Certificate"><br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for NC2 Certificate -->
+<div class="modal fade" id="nc2Modal" tabindex="-1" role="dialog" aria-labelledby="nc2ModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="nc2ModalLabel">NC2 Certificate</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="ncll.jpg" class="img-fluid" alt="NC2 Certificate"> <!-- Larger version of the image -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Completion Certificate -->
+<div class="modal fade" id="ccnModal" tabindex="-1" role="dialog" aria-labelledby="ccnModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ccnModalLabel">Completion Certificate</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <br><img src="ccn.png" class="img-fluid" alt="Completion Certificate"><br>
+        <br><img src="ccn1.png" class="img-fluid" alt="Completion Certificate"><br>
+        <br><img src="ccn2.png" class="img-fluid" alt="Completion Certificate"><br>
+        <br><img src="ccn3.png" class="img-fluid" alt="Completion Certificate"><br>
+        <br><img src="ccn4.png" class="img-fluid" alt="Completion Certificate"><br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<section id="skills" class="section text-center">
+  <h2>Skills</h2>
+  <ul class="list-unstyled d-flex justify-content-center align-items-center" style="gap: 50px;">
+    <li>
+      <i class="fab fa-html5" style="font-size: 5rem; color: #e34c26;" title="HTML"></i>
+      <span style="display: block;">HTML</span>
+    </li>
+    <li>
+      <i class="fab fa-css3-alt" style="font-size: 5rem; color: #264de4;" title="CSS"></i>
+      <span style="display: block;">CSS</span>
+    </li>
+    <li>
+      <i class="fab fa-php" style="font-size: 5rem; color: #8993be;" title="PHP"></i>
+      <span style="display: block;">PHP</span>
+    </li>
+  </ul>
+</section>
+
+
+
+  </main>
+
+  <footer class="bg-dark text-white py-1 text-center"> <!-- Reduced padding (py-2) -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h5 style="font-size: 2rem;">Feel free to connect with me:</h5> <!-- Smaller font size -->
+        <div class="social-icons" style="font-size: 2.5rem;"> <!-- Slightly smaller icon size -->
+          <a href="mailto:maag.torne.au@phinmaed.com" target="_blank"><i class="fas fa-envelope"></i></a>
+          <a href="https://web.facebook.com/Mj.Tornados" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/m.paxieh/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
